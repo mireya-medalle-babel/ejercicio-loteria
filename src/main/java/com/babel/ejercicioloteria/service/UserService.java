@@ -78,7 +78,7 @@ public class UserService implements IUserService {
 
     @Override
     public Map<String, UserDTO> getUsers () {
-        logger.debug("DEBUG - USUARIOS: ");
+        logger.info("OBTENER TODOS LOS USUARIOS: ");
         Map<String, UserDTO> returnDTO =new HashMap<>();
         ArrayList<User> listUser = new ArrayList<>(repository.getUsers().values());
         for(User user : listUser) {
@@ -86,8 +86,7 @@ public class UserService implements IUserService {
             userDto.setId(user.getId());
             userDto.setName(user.getName());
             returnDTO.put(userDto.getId(), userDto);
-            logger.debug(user.getId());
-            logger.debug(user.getName());
+            logger.debug("Añadir usuario con id: "+user.getId()+" y nombre: "+user.getName());
         }
         return returnDTO;
     }

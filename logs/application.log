@@ -1,0 +1,14 @@
+2024-04-18 13:52:12,972 INFO c.b.e.EjercicioLoteriaApplication [main] Starting EjercicioLoteriaApplication using Java 17.0.10 with PID 19352 (C:\Users\mireya.medalle\ejercicio-loteria\target\classes started by mireya.medalle in C:\Users\mireya.medalle\ejercicio-loteria)
+2024-04-18 13:52:12,987 INFO c.b.e.EjercicioLoteriaApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-04-18 13:52:14,512 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2024-04-18 13:52:14,532 INFO o.a.c.h.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-04-18 13:52:14,540 INFO o.a.c.c.StandardService [main] Starting service [Tomcat]
+2024-04-18 13:52:14,542 INFO o.a.c.c.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-18 13:52:14,668 INFO o.a.c.c.C.[.[.[/] [main] Initializing Spring embedded WebApplicationContext
+2024-04-18 13:52:14,669 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1603 ms
+2024-04-18 13:52:15,522 INFO o.a.c.h.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-04-18 13:52:15,571 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path ''
+2024-04-18 13:52:15,590 INFO c.b.e.EjercicioLoteriaApplication [main] Started EjercicioLoteriaApplication in 3.289 seconds (process running for 4.957)
+2024-04-18 13:52:21,689 INFO o.a.c.c.C.[.[.[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-18 13:52:21,690 INFO o.s.w.s.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-04-18 13:52:21,693 INFO o.s.w.s.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 2 ms
